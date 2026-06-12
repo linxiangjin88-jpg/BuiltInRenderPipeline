@@ -1,0 +1,11 @@
+# 忽略根目录下所有内容
+/*
+
+# 放行 Assets/Scripts 目录树
+!/Assets/
+/Assets/*
+!/Assets/Scripts/
+!/Assets/Scripts/**
+
+# 放行 git 配置文件
+!.gitignore
