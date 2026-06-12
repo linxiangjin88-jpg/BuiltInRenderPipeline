@@ -8,7 +8,7 @@ namespace Game.Test.Comps
     {
         void Start()
         {
-            GameLog.Info("CompTest Start");
+            GameLog.Info("CompTest Start");ƒ
             TimerMgr.Inst.CallLater(  () =>
             {
                 GameLog.Info("CompTest TimerMgr.Inst.CallLater Time.frameCount：" + Time.frameCount);
